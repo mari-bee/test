@@ -1,0 +1,49 @@
+.teacher {
+  padding: 40px 0 28px;
+  .section-title {
+    margin-bottom: 25px;
+  }
+
+  &__photo {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(#858585, 0.38);
+    font-size: 16px;
+    line-height: 28px;
+    color: #111517;
+  }
+
+  &__features {
+    &-item:not(:last-child) {
+      margin-bottom: 23px;
+    }
+
+    &-desc {
+      color: #111517;
+      font-size: 13px;
+      letter-spacing: 0.65px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+  }
+
+  &__description {
+    margin-bottom: 22px;
+    color: #858585;
+    font-size: 11px;
+    letter-spacing: 0.55px;
+    line-height: 20px;
+
+    &-item:not(:last-child) {
+      margin-bottom: 26px;
+    }
+  }
+
+  &__sert {
+    color: $second-text-color;
+    font-size: 11px;
+  }
+}
